@@ -13,6 +13,11 @@ This repository contains Kubernetes manifests to deploy a MongoDB StatefulSet wi
 - Kubernetes Secrets for secure credentials
 
 ---
+## Deployment
+After deployment, open your browser at, and you should see the Mongo Express deployment
+http://localhost:8081
+
+![mongo](mong.png)
 
 ## Prerequisites
 
@@ -59,10 +64,7 @@ local cluster
 kubectl port-forward svc/mongo-express-service 8081:8081
 ```
 
-Open your browser at
-http://localhost:8081
 
-![mongo](mong.png)
 
 ## cleanup
 ```bash
