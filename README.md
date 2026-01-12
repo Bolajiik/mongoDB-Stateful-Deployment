@@ -74,3 +74,4 @@ kubectl delete -f configmap.yaml
 kubectl delete -f mongo-secret.yaml
   
      
+ 
