@@ -72,5 +72,5 @@ kubectl delete -f mongo-express.yaml
 kubectl delete -f mongo-db.yaml
 kubectl delete -f configmap.yaml
 kubectl delete -f mongo-secret.yaml
- 
+  
      
